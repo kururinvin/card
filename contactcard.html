@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #75619D;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #E6EFF7;
+        }
+        .card{
+            background-color: #3A2D34;
+            padding: 20px;
+            border-radius: 12px;
+            width: 500px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0.1);
+        }
+        .imgperfil{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #756199
+        }
+        h2{
+            margin: 10px 0 5px;
+            font-size: 30px;
+        }
+        .local{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .job{
+            line-height: 1.5;
+        }
+        .botoes{
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn{
+            padding: 10px 18px;
+            border-radius: 6px;
+            border: 1px solid rgb(113, 189. 240);
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .btn:hover{
+            opacity: 0.8;
+            background: #756199;
+        }
+        .skills{
+            margin-top: 20px;
+            text-align: left;
+        }
+        .tags{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag{
+            border: 1px solid #756199;
+            padding: 5px 10px;
+        }
+        .social-media{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 20px;
+        }
+        .social-media i{
+            cursor: pointer;
+            transition: 0.3s
+        }
+        .social-media i:hover{
+            color: #756199;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="euu.png" alt="Foto de Perfil" class="imgperfil">
+        <h2>Victor Hugo Moreira Fernandes</h2>
+        <div class="local">Montes Claros - MG</div>
+        <div class="job">Técnico em Informática<br>Designer Gráfico</div><br>
+         
+        <div class="botoes">
+            <button class="btn primario">Mensagem</button>
+            <button class="btn secundario">Follow</button>
+        </div>
+         <div class="skills">
+            <h3>Habilidades</h3>
+            <div class="tags">
+                <span class="tag">Conhecimento de Hardware</span><br>
+                <span class="tag">Proatividade em Grupo</span><br>
+                <span class="tag">Conhecimento de Redes</span><br>
+                <span class="tag">Python</span><br>
+                <span class="tag">HTML</span><br>
+                <span class="tag">Eficiência em Exatas</span><Br>
+                <span class="tag">Análise de dados</span><br>
+                <span class="tag">Criação de Layouts</span><br>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
