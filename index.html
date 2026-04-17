@@ -8,14 +8,21 @@
 
     <style>
         body{
+            background: linear-gradient(-100deg, #756199, #ffffff, #5113c4);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
             margin: 0;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #75619D;
             font-family: Arial, Helvetica, sans-serif;
             color: #E6EFF7;
+        }
+        @keyframes gradientBG{
+            0%{background-position: 0% 50%;}
+            50%{background-position: 100% 50%;}
+            100%{background-position: 0% 50%;}
         }
         .card{
             background-color: #3A2D34;
@@ -50,6 +57,11 @@
             gap: 10px;
         }
         .btn{
+            background-color: aliceblue;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            display: inline-block;
             padding: 10px 18px;
             border-radius: 6px;
             border: 1px solid rgb(113, 189. 240);
@@ -83,7 +95,12 @@
         }
         .social-media i{
             cursor: pointer;
-            transition: 0.3s
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .social-media a{
+            text-decoration: none;
+            color: #756199
         }
         .social-media i:hover{
             color: #756199;
@@ -96,11 +113,11 @@
         <img src="euu.png" alt="Foto de Perfil" class="imgperfil">
         <h2>Victor Hugo Moreira Fernandes</h2>
         <div class="local">Montes Claros - MG</div>
-        <div class="job">Técnico em Informática<br>Designer Gráfico</div><br>
+        <div class="job">Técnico em Informática - SENAC<br>Designer Gráfico - SENAI</div>
          
         <div class="botoes">
-            <button class="btn primario">Mensagem</button>
-            <button class="btn secundario">Follow</button>
+            <a href="https://wa.me/5538999061707" class="btn primario">Mensagem</a>
+            <a href="#" class="btn secundario">Follow</a>
         </div>
          <div class="skills">
             <h3>Habilidades</h3>
@@ -110,16 +127,14 @@
                 <span class="tag">Conhecimento de Redes</span><br>
                 <span class="tag">Python</span><br>
                 <span class="tag">HTML</span><br>
-                <span class="tag">Eficiência em Exatas</span><Br>
+                <span class="tag">Resolução de problemas</span><Br>
                 <span class="tag">Análise de dados</span><br>
                 <span class="tag">Criação de Layouts</span><br>
             </div>
         </div>
         <div class="social-media">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-instagram"></i>
+            <a href="https://github.com/kururinvin"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/httpvito"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
     
